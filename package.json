@@ -1,0 +1,30 @@
+{
+  "name": "the_acme_reservation_planner",
+  "version": "1.0.0",
+  "description": "Block 34 Workshop",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server/index.js",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deniseosoria/the_acme_reservation_planner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deniseosoria/the_acme_reservation_planner/issues"
+  },
+  "homepage": "https://github.com/deniseosoria/the_acme_reservation_planner#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.2",
+    "uuid": "^11.0.5"
+  }
+}
